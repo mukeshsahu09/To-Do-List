@@ -1,0 +1,17 @@
+To-Do List
+A simple and intuitive To-Do List application that allows users to manage tasks efficiently. This project demonstrates fundamental HTML, CSS, and JavaScript concepts and is designed to be user-friendly with basic functionalities including adding, editing, and deleting tasks.
+
+Features:-
+Add Tasks: Input new tasks into the list.
+Edit Tasks: Modify existing tasks.
+Delete Tasks: Remove tasks from the list.
+Responsive Design: Adaptable layout that adjusts to different screen sizes.
+Technologies Used
+HTML: Structure of the application.
+CSS: Styling and layout of the application.
+JavaScript: Interactive functionalities such as adding, editing, and deleting tasks.
+
+Usage:-
+Enter a Task: Type your task into the input box and click "Add" to add it to the list.
+Edit a Task: Click "Edit" next to a task to modify its content.
+Delete a Task: Click "Delete" next to a task to remove it from the list.
