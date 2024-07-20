@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#container {
+    height: 700px;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    background: #38598b;
+    padding: 20px 0;
+}
+
+#container section {
+    height: 100px;
+    width: 80%;
+    position: absolute;
+    top: 50px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+}
+
+#container section input {
+    height: 40px;
+    box-shadow: 0px 0px 8px grey;
+}
+
+#container section input[type="text"] {
+    flex-basis: 40%;
+    padding: 5px 15px 5px 20px;
+    outline: none;
+    border-radius: 7px 0px 0px 7px;
+    border: 0.5px solid #113f67;
+    font-size: 16px;
+    /* font-weight: 15px; */
+}
+
+#container section input[type="button"] {
+    flex-basis: 10%;
+    border-radius: 0px 7px 7px 0px;
+    border: 0.5px solid #a2a8d3;
+    background-color: #a2a8d3;
+    font-size: 16px;
+    /* font-weight: 20px; */
+    cursor: pointer;
+}
+
+#container ul {
+    width: 550px;
+    /* border: 1px solid; */
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    position: absolute;
+    top: 160px;
+    text-wrap: wrap;
+}
+
+#container ul li {
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border: 0.5px solid #a2a8d3;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+
+#container ul li p {
+    margin-left: 10px;
+    flex-grow: 1;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-top: 0;
+    white-space: pre-wrap;
+}
+
+#container ul li button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+}
+
+#container ul li button#edit {
+    background-color: #38598b;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+#container ul li button#del {
+    background-color: #38598b;
+    color: rgb(255, 101, 101);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
